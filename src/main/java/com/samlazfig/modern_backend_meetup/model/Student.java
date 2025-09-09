@@ -34,7 +34,6 @@ public class Student implements Serializable {
     @Length(max = 60)
     private String fullname;
 
-
     @Min(200)
     @Max(800)
     private Integer satScore;
